@@ -1,0 +1,29 @@
+{
+  "name": "adminflex-inicio",
+  "version": "1.0.0",
+  "description": "admin flex",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojedam13/AdminFlex.git"
+  },
+  "keywords": [
+    "flexobx"
+  ],
+  "author": "martin ojeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojedam13/AdminFlex/issues"
+  },
+  "homepage": "https://github.com/ojedam13/AdminFlex#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.38.1"
+  }
+}
