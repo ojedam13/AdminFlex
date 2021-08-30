@@ -36,14 +36,18 @@ img {
     display: flex;
 
     .nombre-sitio{
+        padding: 1rem;
         flex: 0 0 5rem;
         @include desktop{
             flex: 0 0 20rem;
         }
         background-color: $secundario;
+        display: flex;
+        align-items: center;
 
         h1{
             color: $blanco;
+            margin: 0;
         }
 
         .escritorio{
@@ -58,6 +62,19 @@ img {
                 display: none;
             }
         }
+    }
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: $principal;
+    padding: 1rem;
+
+    .menu-izquierdo{
+        display: flex;
+        align-items: center;
     }
 }
 
