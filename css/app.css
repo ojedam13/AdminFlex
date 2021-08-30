@@ -70,11 +70,32 @@ img {
   justify-content: space-between;
   flex: 1;
   background-color: #335ff0;
-  padding: 1rem;
 }
 .barra .menu-izquierdo {
   display: flex;
   align-items: center;
+  padding: 1rem;
+}
+.barra .menu-derecho {
+  display: flex;
+}
+.barra .menu-derecho .caja {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+.barra .menu-derecho .caja:hover {
+  background-color: #1b4cee;
+}
+.barra .menu-derecho .caja a {
+  color: #fff;
+  text-decoration: none;
+}
+.barra .menu-derecho .caja a span {
+  background-color: #1cd604;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .contenedor-principal {
