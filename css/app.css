@@ -12,6 +12,7 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   height: 100%;
+  background-color: #f2f2f2;
 }
 
 img {
@@ -180,4 +181,9 @@ img {
 .contenedor-principal {
   flex: 1;
   display: flex;
+}
+
+.contenido {
+  flex: 1;
+  padding: 2rem;
 }

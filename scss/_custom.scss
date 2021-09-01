@@ -12,6 +12,7 @@ html {
 body {
     font-family: $fuente_principal;
     height: 100%;
+    background-color: $gris;
 }
 
 img {
@@ -203,4 +204,9 @@ img {
     flex: 1;
     display: flex;
    
+}
+
+.contenido{
+    flex: 1;
+    padding: 2rem;
 }
