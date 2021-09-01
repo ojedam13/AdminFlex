@@ -134,6 +134,52 @@ img {
             padding-left: 1rem;
         }
     }
+    .menu-admin{
+        margin-top: 2rem;
+    }
+}
+
+.menu-admin{
+    .menu{
+        list-style: none;
+        padding: 0 0 0 1rem;
+
+        > li {
+            padding: .5rem;
+            &:hover{
+                ul {
+                    display: block;
+                }
+            }
+
+            a{
+                color: $blanco;
+                text-decoration: none;
+                padding: .5rem;
+                transition: padding-left .3s ease;
+
+                &:hover{
+                    background-color: $principal;
+                    padding-left: 2rem;
+                }
+            }
+
+            ul{
+                display: none;
+                margin-top: 1rem;
+                list-style: none;
+                background-color: darken($grisOscuro, 3);
+                padding: 1rem;
+                li{
+                    margin-bottom: 1rem;
+
+                    &:last-of-type{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
 }
 
 

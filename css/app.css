@@ -127,6 +127,43 @@ img {
   border-radius: 10px;
   padding-left: 1rem;
 }
+.sidebar .menu-admin {
+  margin-top: 2rem;
+}
+
+.menu-admin .menu {
+  list-style: none;
+  padding: 0 0 0 1rem;
+}
+.menu-admin .menu > li {
+  padding: 0.5rem;
+}
+.menu-admin .menu > li:hover ul {
+  display: block;
+}
+.menu-admin .menu > li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: padding-left 0.3s ease;
+}
+.menu-admin .menu > li a:hover {
+  background-color: #335ff0;
+  padding-left: 2rem;
+}
+.menu-admin .menu > li ul {
+  display: none;
+  margin-top: 1rem;
+  list-style: none;
+  background-color: #2f2f2f;
+  padding: 1rem;
+}
+.menu-admin .menu > li ul li {
+  margin-bottom: 1rem;
+}
+.menu-admin .menu > li ul li:last-of-type {
+  margin-bottom: 0;
+}
 
 .contenedor-principal {
   flex: 1;
