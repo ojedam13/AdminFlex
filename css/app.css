@@ -98,6 +98,37 @@ img {
   margin-left: 0.5rem;
 }
 
+.sidebar {
+  background-color: #373737;
+  flex: 0 0 20rem;
+  padding: 1rem;
+  color: #fff;
+}
+.sidebar .usuario {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+}
+.sidebar .usuario img {
+  max-width: 5rem;
+}
+.sidebar .usuario span {
+  font-weight: normal;
+  display: block;
+}
+.sidebar .buscador {
+  margin-top: 1rem;
+}
+.sidebar .buscador input[type=text] {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+
 .contenedor-principal {
   flex: 1;
+  display: flex;
 }
