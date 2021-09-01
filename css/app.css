@@ -32,6 +32,10 @@ img {
   flex-direction: column;
 }
 
+.no-menu.pagina .sidebar {
+  margin-left: -20rem;
+}
+
 .header {
   display: flex;
 }
@@ -76,6 +80,13 @@ img {
   align-items: center;
   padding: 1rem;
 }
+.barra .menu-izquierdo i {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.barra .menu-izquierdo .fa-chevron-right {
+  display: none;
+}
 .barra .menu-derecho {
   display: flex;
 }
@@ -103,6 +114,7 @@ img {
   flex: 0 0 20rem;
   padding: 1rem;
   color: #fff;
+  transition: margin-left 0.3s ease;
 }
 .sidebar .usuario {
   display: flex;
